@@ -1,0 +1,15 @@
+.nav-li{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 2vw;
+}
+.nav-li:hover{
+    text-decoration: underline;
+   
+}
+#nav-brand{
+    font-size: larger !important;
+    font-weight: bold !important;
+    text-decoration: none;
+    color: #0d6efd;
+}

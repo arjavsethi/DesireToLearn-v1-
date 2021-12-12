@@ -1,0 +1,64 @@
+.application{
+    margin-top: 10vh;
+    height: 60vh;
+}
+.border-m{
+    border: 2px solid red;
+}
+#installnow{
+    height: 58vh;
+}
+.whyus{
+    font-weight: bold;
+    
+}
+.second-box{
+    margin-top: 10%;
+    height: 40vh;
+    background-color:rgb(242,243,246) ;
+}
+.downloadNow{
+    font-weight: bolder;
+    margin-top: 2%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+.getOnPlayStore{
+    height: 20vh;
+    width: 25vw;
+    margin-left:10vw ;
+}
+.appDetails{
+    font-weight: bold;
+    font-size: large;
+    
+}
+.appDetails ul li {
+    margin-bottom: 2%;
+}
+.footer-app{
+    margin-top: 30%;
+}
+@media only screen and (max-width: 600px) {
+   .footer-app{
+       margin-top: 110vh;
+   }
+   .second-box {
+       height: 50vh;
+       width: 80vw;
+       margin-top: 30%;
+       margin-bottom: 50% ;
+       
+   }
+   .getOnPlayStore{
+       width: 70vw;
+       margin-left: 0vw;
+       
+   }
+.carousel{
+    margin-left: 10%;
+    width: 50vw;
+
+}
+
+  }

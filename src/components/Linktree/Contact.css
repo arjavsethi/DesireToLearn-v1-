@@ -1,0 +1,88 @@
+.heading-mid{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bolder ;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+.container{
+    /* border: 1.5px solid black; */
+    /* height: 50vh; */
+    width: 80vw;
+     margin-bottom:50px ;/*remover this style later */
+ 
+}
+.contact-border{
+    border: 1.5px solid black;
+}
+.social{
+    width: 10vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.instagram button{
+   /* background-color: #8a3ab9; */
+}
+
+ .facebook{} 
+ .telegram{}
+ #followImg{
+     height: 30vh;
+     width: 30vw;
+     margin-right: 10%;
+     margin-left: 35%;
+     
+ }
+ .cont2{
+     display: flex;
+     flex-direction: row;
+    
+ }
+.baground-color-custom{
+    background-color:rgb(242,243,246) ;
+    
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .linktree-main{
+      margin-top: 100%; /* dont know why  svg of home page collapsing with this component */ 
+     
+  }
+  .social button {
+      
+      width: 60vw;
+      margin-left: -80px;
+      /* border: 2px solid black; */
+      
+  }
+  .cont2{
+      flex-direction: column;
+  }
+  #followImg{
+      height: 50vh;
+      width: 60vw;
+      margin: -5% 0% 0% 25% ;
+  }
+  .child{
+      padding-left: 0%;
+      margin-left: 0%;
+      /* border: 2px solid red; */
+  }
+  .social{
+      margin-bottom: -15px;
+  }
+  .follow-us{
+      font-size: 34px;
+      margin-top: 25px !important;
+  }
+  }

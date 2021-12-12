@@ -1,0 +1,24 @@
+.footer{
+    height: 55vh;
+    background-color: rgb(49,52,60);
+    /* border: 2px solid black; */
+color: white;
+margin-bottom: 0%;
+}
+.box-f{
+    font-size: small;
+    padding: 5%;
+}
+.box-f h3 {
+    margin-bottom: -2%;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 83vh;
+    }
+  }

@@ -1,0 +1,42 @@
+.iFrame{
+    height: 30vh;
+    width: 25vw;
+   margin-left: 2%;
+}
+.video1{
+    height: 30vh;
+    width: 25vw;
+    border: 1px solid black;
+    margin-left: 2%;
+    
+}
+.testimonial-bg{
+    /* background-color:rgb(242,243,246) ; */
+    /* background-color: rgb(227, 233, 255); */
+    /* border: 2px solid black; */
+    margin-top: -2%;
+    
+}
+@media only screen and (max-width: 600px) {
+   .testimonial-bg{
+       margin-top: 5%;
+   }
+   .testimonials-head{
+       font-size: 35px;
+       margin-bottom: 10% !important;
+   }
+   .row{
+       display: flex;
+       flex-direction: column;
+   }
+   .testimonialContainer iFrame{
+       width: 90vw;
+       
+   }
+   .video1{
+       width: 90vw;
+       margin-left: 2vw;
+       height: 50vh;
+   }
+   
+  }

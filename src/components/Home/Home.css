@@ -1,0 +1,97 @@
+
+
+.parent{
+    display: flex;
+;
+ height: 75vh;
+ /* border: 2px solid blue; */
+ padding-left: 5vw;
+ padding-right: 5vw;
+}
+.child1{
+    padding: 2vw;
+    /* border: 2px solid green; */
+    width: 40vw;
+    margin-right: 5vw;
+    font-size: larger;
+
+}
+.child2{
+    /* border: 2px solid black; */
+width: 40vw;
+}
+
+.heading{
+    text-align: center;
+    
+    margin-top: 5vh;
+    letter-spacing: -0.005em;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #0E101A;
+}
+.image-small{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 45vw;
+    margin-top: 10%;
+}
+.sigma-parent{
+    margin-top: 2vh;
+    /* background-color: rgb(227, 233, 233); */
+}
+.testimonial-button{
+    width: 18vw ;
+}
+
+@media only screen and (max-width: 600px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        /* padding: 0px; */
+        /* margin: 0%; */
+        font-size: 26px;
+        line-height: 35px;
+        /* border: 2px solid black; */
+        width: 85vw;
+        font-weight: bolder;
+        
+    }
+    .tagline-desc{
+     /* border: 2px solid black;  */
+     width: 85vw;      
+     display: block;
+    }
+
+    .child2{
+        margin: 0% !important;
+    }
+    .download-button{
+        width: 40vw;
+        margin: 0%;
+        margin-right: 2%;
+    }
+    .testimonial-button{
+        width: 39vw;
+        margin: 0%;
+    }
+    .child1{
+        padding: 2vw;
+        /* border: 2px solid green; */
+        width: 85vw;
+        /* margin-right: 5vw; */
+        /* font-size: larger; */
+    padding-bottom: 0%;
+    }
+    .image-small{
+        width: 80vw;
+        height: 50vh;
+        margin-top: 0%;
+        padding-top: 0%;
+        margin-left: 10%;
+    }
+  }

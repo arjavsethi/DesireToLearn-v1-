@@ -1,0 +1,23 @@
+.sizeCarousel{
+    height: 25vh;
+    width: 30vw;
+}
+.img-size{
+    width: 281px !important;
+    height: 335px;
+    margin-left: 90px;
+    border: 0.2px solid  #181A18;
+}
+@media only screen and (max-width: 600px) {
+    .img-size{
+        /* width: 50vw !important; */
+        /* height: 50vh; */
+        margin-left: -30%;
+        border: 0.2px solid  #181A18;
+        
+    }
+    .sizeCarousel{
+        height: 40vh;
+        width: 70vw;
+    }
+  }
